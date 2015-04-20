@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+        <Ceicom_Improve>
+            <version>0.1.0</version>
+        </Ceicom_Improve>
+    </modules>
+	<global>
+		<models>
+			<ceicom_improve>
+				<class>Ceicom_Improve_Model</class>
+			</ceicom_improve>
+		</models>
+		<helpers>
+			<ceicom_improve>
+				<class>Ceicom_Improve_Helper</class>
+			</ceicom_improve>
+		</helpers>
+		<events>
+			<sales_quote_collect_totals_before>
+				<observers>					
+					<ceicom_improve_quote_collect_totals_before>
+                        <type>singleton</type>
+						<class>Ceicom_Improve_Model_Sales_Quote_Observer</class>
+						<method>salesQuoteCollectTotalsBefore</method>
+					</ceicom_improve_quote_collect_totals_before>
+				</observers>
+			</sales_quote_collect_totals_before>
+		</events>
+	</global>
+</config>

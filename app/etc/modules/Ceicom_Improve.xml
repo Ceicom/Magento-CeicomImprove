@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Ceicom_Improve>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Sales/>
+            </depends>
+        </Ceicom_Improve>
+    </modules>
+</config>
