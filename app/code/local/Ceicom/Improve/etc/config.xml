@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Ceicom_Improve>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Ceicom_Improve>
     </modules>
     <global>
@@ -30,7 +30,7 @@
                 <observers>
                     <filter_controller_action_predispatch>
                         <type>singleton</type>
-                        <class>Ceicom_Improve_Model_CheckoutObserver</class>
+                        <class>Ceicom_Improve_Model_Checkout_Observer</class>
                         <method>dispatch</method>
                     </filter_controller_action_predispatch>
                 </observers>
