@@ -2,6 +2,12 @@
 
 This is a simple module that improve some Magento functions and adds others.
 
+## Controllers
+
+These are the controller routes available so far (view the classes for details):
+
+GET => ceicom_improve_customer/customer/checkExistingCustomerByEmail/email/email@param.com
+
 ## Helpers
 
 These are the helpers available so far (view the classes for details):
