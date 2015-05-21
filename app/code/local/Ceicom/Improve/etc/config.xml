@@ -37,4 +37,15 @@
             </controller_action_predispatch>
         </events>
     </global>
+    <frontend>
+        <routers>
+            <ceicom_improve_customer>
+                <use>standard</use>
+                <args>
+                    <module>Ceicom_Improve_Customer</module>
+                    <frontName>ceicom_improve_customer</frontName>
+                </args>
+            </ceicom_improve_customer>
+        </routers>
+    </frontend>
 </config>
